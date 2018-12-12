@@ -1,5 +1,5 @@
-# react-boilerplate
-React Project Setup (stylus, Babel). Note that all dependencies that you include should be included manually when configuring your project.
+# Personal Portfolio
+Second portfolio this time made using React.js
 
 # Install
 
@@ -20,8 +20,13 @@ With yarn:
 ```
 yarn dev
 ```
-
 This will run at localhost:8888
+
+# Production
+With yarn:
+```
+yarn build
+```
 
 # Stylus
 http://stylus-lang.com/
