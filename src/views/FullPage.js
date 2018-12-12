@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/views/FullPage.styl';
+import HendelLogo from '../components/HendelLogo';
 
 class FullPage extends React.Component {
     render() {
         return (
             <div>
-                <h1>HOLA MUNDO</h1>
+                <HendelLogo></HendelLogo>
             </div>
         );
     }
