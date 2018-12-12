@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.styl';
-import { TweenMax, Power2 } from "gsap/all";
+import './styles/utils/fonts.styl';
+import "gsap";
+import FullPage from './views/FullPage';
 
 class App extends React.Component {
     constructor(props){
@@ -18,6 +20,7 @@ class App extends React.Component {
         return (
             <div className="Home">
                 <h1 ref={ h1 => this.title = h1 }>Hello there!</h1>
+                <FullPage></FullPage>
             </div>
         );
     }
