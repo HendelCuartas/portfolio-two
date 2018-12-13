@@ -13,7 +13,6 @@ class FullPage extends React.Component {
     projectsRef = React.createRef();
     contactRef = React.createRef();
     bulletClicked(i) {
-        console.log('entra', i)
         switch(i) {
             case 0:
                 this.animateScroll(this.homeRef.current.offsetTop)
