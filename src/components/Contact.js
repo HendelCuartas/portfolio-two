@@ -6,7 +6,7 @@ class Contact extends React.Component {
         const { refComponent } = this.props;
         return (
             <div className="Contact" ref={refComponent}>
-                <h1>Contact</h1>
+                <h1 className="Contact-title">Contact</h1>
             </div>
         );
     }

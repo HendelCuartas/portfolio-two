@@ -41,7 +41,7 @@ class FullPage extends React.Component {
                 <Home refComponent={this.homeRef}></Home>
                 <Projects refComponent={this.projectsRef}></Projects>
                 <Contact refComponent={this.contactRef}></Contact>
-                <HendelLogo></HendelLogo>
+                <HendelLogo logoClicked={() => this.animateScroll(0)}></HendelLogo>
                 <SideBar bulletClicked={i => this.bulletClicked(i)}></SideBar>
             </div>
         );

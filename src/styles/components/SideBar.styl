@@ -4,8 +4,11 @@
     display flex
     justify-content center
     align-items center
+    +above(rupture.scale[3])
+        size 100px 100%
 
 .SideBar-container
+    position relative
     size 16px 75px
     display flex
     flex-direction column
@@ -13,7 +16,11 @@
     align-items center
 
 .SideBar-bullet
+    position relative
     size 14px
     border-radius 50%
     border 1px solid white
     cursor pointer
+    transition 0.4s
+    &:hover
+        background #FFF

@@ -6,7 +6,7 @@ class Projects extends React.Component {
         const { refComponent } = this.props;
         return (
             <div className="Projects" ref={refComponent}>
-                <h1>Projects</h1>
+                <h1 className="Projects-title">Projects</h1>
             </div>
         );
     }
