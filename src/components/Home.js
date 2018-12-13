@@ -3,8 +3,9 @@ import '../styles/components/Home.styl';
 
 class Home extends React.Component {
     render() {
+        const { refComponent } = this.props;
         return (
-            <div className="Home">
+            <div className="Home" ref={refComponent}>
                 <div className="Home-container">
                     <h1 className="Home-title">Creative Developer</h1>
                     <p className="Home-subtitle">
